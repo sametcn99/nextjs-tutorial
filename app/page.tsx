@@ -41,7 +41,9 @@ export default function Page() {
             height={620}
             className="block md:hidden"
             alt="Screenshot of the dashboard project showing mobile version"
-          />
+          />{' '}
+          const data = await Promise.all([ invoiceCountPromise,
+          customerCountPromise, invoiceStatusPromise, ]);
         </div>
       </div>
     </main>
